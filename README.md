@@ -35,5 +35,7 @@ Bhasa-Lipi/
 
 
 Open http://127.0.0.1:8000/, upload PDF/DOCX/TXT, and you’ll see English + Hindi translation
-
-
+Have to Work on ---
+UI 
+DOWNLOADING BUTTON 
+ETC
