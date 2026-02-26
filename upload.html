@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bhasha-Lipi AI</title>
+</head>
+<body>
+    <h1>Bhasha-Lipi AI</h1>
+
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Upload</button>
+    </form>
+
+    {% if extracted_text %}
+        <h2>Extracted Text (English):</h2>
+        <p>{{ extracted_text }}</p>
+    {% endif %}
+
+    {% if translated_text %}
+        <h2>Translated Text (Hindi):</h2>
+        <p>{{ translated_text }}</p>
+    {% endif %}
+</body>
+</html>
