@@ -18,19 +18,25 @@ Bhasa-Lipi/
 │   ├── urls.py
 │   ├── views.py
 │   ├── utils.py
+│   │
+│   ├── static/
+│   │   └── lipi/
+│   │       └── css/
+│   │           └── style.css
+│   │
 │   └── templates/
 │       └── lipi/
 │           └── upload.html
 │
+├── static/                 # (Optional: global static folder)
+│   └── css/
+│       └── global.css
+│
 ├── media/
-│   └── documents/      # Uploaded files will go here
+│   └── documents/          # Uploaded files
 │
 ├── manage.py
-└── env/                # Virtual environment
-
-
-
-
+└── env/
 
 
 
