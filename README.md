@@ -37,7 +37,7 @@ Bhasa-Lipi/
 │
 ├── manage.py
 └── env/
-
+   
 LOCAL HOST _ DATA PRIVACY
 
 HAVE TO ADD
